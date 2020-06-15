@@ -1,0 +1,26 @@
+{
+  "name": "error-help",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/error-help.git"
+  },
+  "homepage": "https://github.com/mattdesl/error-help",
+  "bugs": {
+    "url": "https://github.com/mattdesl/error-help/issues"
+  }
+}
