@@ -25,7 +25,7 @@ Include like so in your project, in the HEAD before all other script tags:
   ...
   <head>
     <script
-      src="https://cdn.jsdelivr.net/npm/error-help@1.0.0/error-help.js" 
+      src="https://cdn.jsdelivr.net/npm/error-help@1.0.1/error-help.js" 
       dedupe-logs></script>
   </head>
   ...
