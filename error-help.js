@@ -295,9 +295,9 @@ The error-help utility has ignored some console.${fn} to reduce visual clutter. 
     // should trigger 'error' event and render it
     const err = ev.reason;
     if (err.stack) {
-      const matched = err.stack.match(/\/([\/\w-_\.]+\.js):(\d*):(\d*)/)
+      const matched = err.stack.match(/\((.*):(\d*):(\d*)/)
       if (matched) {
-        const [, filename, line, column ] = matched;
+        let [, filename, line, column ] = matched;
         if (filename != null && line != null && isFinite(line) && column != null && isFinite(column)) {
           const message = err.message;
           const urlBase = `${window.location.protocol}//${window.location.host}/`;
