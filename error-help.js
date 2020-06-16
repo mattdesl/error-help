@@ -301,7 +301,7 @@ The error-help utility has ignored some console.${fn} to reduce visual clutter. 
         if (filename != null && line != null && isFinite(line) && column != null && isFinite(column)) {
           const message = err.message;
           const urlBase = `${window.location.protocol}//${window.location.host}/`;
-          onErrorEvent([ message, urlBase + filename, line, column, err ]);
+          onErrorEvent([ message, filename, line, column, err ]);
           return;
         }
       }
