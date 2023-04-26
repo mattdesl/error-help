@@ -10,10 +10,10 @@ function draw() {
   // setup colors and styles
   background("white");
 
-  stroke('black');
+  stroke("black");
   noFill();
   circle(width / 2, height / 2, 250);
-  
+
   const radius = a;
   circle(width / 2, height / 2, radius);
 }
